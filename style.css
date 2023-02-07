@@ -28,8 +28,25 @@ body {
   padding: 0.8rem 3rem;
 }
 
-table th {
+th {
   text-align: center;
+}
+
+.td-no {
+  width: 1rem;
+  text-align: center;
+}
+
+.td-hari, .td-jawa {
+  width: 2rem;
+}
+
+.td-rmdn {
+  width: 7rem;
+}
+
+.td-tgl {
+  width: 5rem;
 }
 
 #customers {
@@ -50,7 +67,6 @@ table th {
   #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
     background-color: #04AA6D;
     color: white;
   }
