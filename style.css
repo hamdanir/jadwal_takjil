@@ -71,3 +71,19 @@ th {
     color: white;
   }
 
+
+  /* media Queries */
+  /* Laptop */
+  @media (max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+
+  
+  /* Mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
