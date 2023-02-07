@@ -80,10 +80,20 @@ th {
     }
   }
 
-  
+
   /* Mobile */
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .tittle h1 {
+    font-size: 1.5rem;
+  }
+  .tittle p {
+    font-size: 1rem;
+  }
+
+  .table-content {
+    font-size: 60%;
   }
 }
